@@ -1,28 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-    <title>Mein Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lou JP Mußgnug – Künstlerportfolio</title>
     <style>
-        body { font-family: Helvetica; max-width: 800px; margin: auto; }
-        img { max-width: 100%; height: auto; }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            color: #000;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 40px;
+            color: #222;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.4em;
+            margin-top: 25px;
+            color: #333;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .profilbild {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px auto;
+            display: block;
+            border: 3px solid #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .projekt {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+        }
+        .projekt img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+        .skills, .contact {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <h1>Hi, ich bin Lou!</h1>
-    <img src="profilbild.jpg" alt="Mein Profilbild" width="200">
+    <header>
+        <h1>Lou JP Mußgnug</h1>
+        <img src="profilbild.jpg" alt="Lou JP Mußgnug – Künstlerportfolio" class="profilbild">
+        <p><em>Interdisziplinäre Künstlerin · Kuratorin · Raumgestalterin</em></p>
+        <p>Soziale Skulptur · Transhumanismus · Body Modification · Cyborgismus · Pädagogik</p>
+    </header>
 
-    <h2>Über mich</h2>
-    <p>Hier kannst du etwas über dich schreiben, z.B. was du machst oder was deine Interessen sind.</p>
+    <section>
+        <h2>Über mich</h2>
+        <p>
+            Ich bin Lou JP Mußgnug (*1985, Stuttgart), eine Medien- und Konzeptkünstlerin mit Fokus auf die Schnittstellen von <strong>Technologie, Identität, sozialer Dynamik und institutioneller Kritik</strong>. Meine Arbeit umfasst Installationen, Performances, soziale Skulpturen und die Transformation von Räumen – immer mit dem Ziel, Grenzen zu hinterfragen und kollektive Erfahrungen zu ermöglichen.
+        </p>
+        <p>
+            Seit 2018 leite ich das nomadische Offspace-Projekt <strong>„Lou and Louis“</strong>, das in München begann und heute in Stuttgart als 150 m² Dachboden-Galerie weiterlebt. Meine Feldstudie in Brasilien (2021–2024) prägte meine Auseinandersetzung mit Exil, Überwachung und kulturellen Grenzzuständen. Als Tätowiererin, BodyMod-Aktivistin und Workshop-Leiterin verbinde ich künstlerische Praxis mit pädagogischem Engagement.
+        </p>
+        <p>
+            Mein Ziel ist es, Kunst als Werkzeug für gesellschaftliche Reflexion und Empowerment einzusetzen – in akademischen Kontexten und freien Projekten.
+        </p>
+    </section>
 
-    <h2>Meine Projekte</h2>
-    <h3>Projekt 1</h3>
-    <img src="projekt1.jpg" alt="Bild von Projekt 1">
-    <p>Beschreibung deines ersten Projekts. Was hast du gemacht? Welche Technologien hast du verwendet?</p>
+    <section>
+        <h2>Meine Projekte</h2>
 
-    <h3>Projekt 2</h3>
-    <img src="projekt2.jpg" alt="Bild von Projekt 2">
-    <p>Beschreibung deines zweiten Projekts.</p>
+        <div class="projekt">
+            <h3>„Lou and Louis“ – Nomadischer Offspace (seit 2018)</h3>
+            <img src="lou-and-louis1.jpg" alt="Lou and Louis – Reichenbachbrücke München">
+            <p>
+                <strong>2018–2019 (München):</strong> Miete eines Häuschens an der Reichenbachbrücke als experimenteller Ausstellungsort.
+            </p>
+            <img src="lou-and-louis2.jpg" alt="Lou and Louis – Studentenwohnheim München">
+            <p>
+                <strong>2019–2021 (München-Maxvorstadt):</strong> Monatliche Umgestaltung eines Studentenwohnheimzimmers zu einer temporären Galerie – inkl. kompletter Räumung und Neuinszenierung pro Ausstellung.
+            </p>
+            <img src="lou-and-louis3.jpg" alt="Lou and Louis – Dachboden-Galerie Stuttgart">
+            <p>
+                <strong>Seit 2022 (Stuttgart):</strong> 150 m² Dachboden-Galerie als dauerhafter Ort für Ausstellungen, Workshops und künstlerische Forschung. Themen: Transhumanismus, soziale Skulptur, Raum als Medium der Transformation.
+            </p>
+        </div>
+
+        <div class="projekt">
+            <h3>„A CADEmIA“ – Diplomprojekt (2024)</h3>
+            <img src="academia.jpg" alt="A CADEmIA – Installation und Performance">
+            <p>
+                Multimediale Arbeit, die Erinnerung, Überwachung und Transformation in räumliche, visuelle und klangliche Formen übersetzt. Umfasst ein Buch, eine Installation und eine Performance.
+            </p>
+        </div>
+
+        <div class="projekt">
+            <h3>„The Overwhelm Ball“ – Skulptur (2019)</h3>
+            <img src="overwhelm-ball.jpg" alt="The Overwhelm Ball – Skulptur">
+            <p>
+                250x250x250 cm große Skulptur zu Transhumanismus und autoritären Beziehungen, ausgestellt in München.
+            </p>
+        </div>
+
+        <div class="projekt">
+            <h3>„Confessions of Britney Lou“ – Medienkunst (2019)</h3>
+            <img src="confessions.jpg" alt="Confessions of Britney Lou – Medienkunstprojekt">
+            <p>
+                Interdisziplinäres Projekt zur kritischen Reflexion von Popkultur, Identität und Medienstrategien.
+            </p>
+        </div>
+
+        <div class="projekt">
+            <h3>„Street Sculptures“ – Urbanes Projekt (2015–2018)</h3>
+            <img src="street-sculptures.jpg" alt="Street Sculptures – Fotoprints">
+            <p>
+                Instagram-Projekt und Fotoprints (60x45 cm) zur künstlerischen Auseinandersetzung mit urbanen Räumen weltweit.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Lehre & Vermittlung</h2>
+        <p>
+            Seit 2016 gebe ich Workshops zu Body Modification, Körperautonomie und Open-Source-Kultur. Meine Erfahrung als Tätowiererin, Gründerin von „Lou and Louis“ und Assistentin an der AdBK München qualifiziert mich für Lehraufträge in den Bereichen Medienkunst, soziale Skulptur und aktivistische Strategien.
+        </p>
+        <div class="skills">
+            <h3>Skills & Methoden</h3>
+            <ul>
+                <li>Kuratierung & Ausstellungsgestaltung</li>
+                <li>Performance & Installation</li>
+                <li>Body Modification & Tätowierung</li>
+                <li>Workshop-Konzeption & Pädagogik</li>
+                <li>Digitale Medien (Video, Buchdesign, Social Media)</li>
+                <li>Raumgestaltung & soziale Skulptur</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Kontakt</h2>
+        <div class="contact">
+            <p><strong>E-Mail:</strong> <a href="mailto:lou@lou-jp.com">lou@lou-jp.com</a></p>
+            <p><strong>Website:</strong> <a href="https://lou-jp.com" target="_blank">lou-jp.com</a></p>
+            <p><strong>Instagram:</strong> <a href="https://www.instagram.com/lou.jp.art" target="_blank">@lou.jp.art</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Lou JP Mußgnug – Alle Rechte vorbehalten.</p>
+    </footer>
 </body>
 </html>
-
-
